@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android_datepickerdialog</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+	<string name="datepicker_confirm">确&#160;&#160;&#160;&#160;&#160;&#160;定</string>
+	<string name="nianling_xianzhi">年龄限制，不得小于16岁</string>
+	<string name="choose_birthday">请选择生日:</string>
+</resources>

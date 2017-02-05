@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/datepicker_bg">
+
+    <LinearLayout
+        android:id="@+id/picker_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/date_picker_title"
+            android:layout_width="290dp"
+            android:layout_height="10dp"
+            android:background="@drawable/date_picker_title_background"
+            android:gravity="center_vertical"
+            android:text=""
+            android:textColor="@android:color/white" />
+
+        <DatePicker
+            android:id="@+id/datePicker"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:calendarViewShown="false"
+            android:spinnersShown="true" />
+
+        <TextView
+            android:id="@+id/date_picker_ok"
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:background="@drawable/date_picker_button_background"
+            android:gravity="center"
+            android:text="@string/datepicker_confirm"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</RelativeLayout>
